@@ -4,10 +4,11 @@ const PORT = process.env.PORT || 3000;
 const name = "CodeTest";
 
 app.get('/', (req, res) => {
-    res.send(`! Welcome to Shopeasyfrom code`);
+    const message = `! Welcome to Shopeasy from ${name}!`;
+    res.send(message);
 });
  const server = app.listen(PORT, () => {
     console.log(`Server is running on port ${PORT}`);
 });
 
-module.exports = {app, server}
+module.exports = {app, server, name}
