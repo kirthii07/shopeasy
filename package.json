@@ -1,0 +1,24 @@
+{
+  "name": "shopeasy",
+  "version": "1.0.0",
+  "description": "ecommerce  app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kirthii07/shopeasy.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/kirthii07/shopeasy/issues"
+  },
+  "homepage": "https://github.com/kirthii07/shopeasy#readme",
+  "dependencies": {
+    "express": "^5.2.1"
+  }
+}
